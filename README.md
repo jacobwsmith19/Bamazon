@@ -17,12 +17,6 @@ An Amazon-esque store created with Node.js and MySQL.
       * If the purchase goes through, it updates the stock quantity in the MySQL database to reflect the purchase.
       * It will also update the product sales in the department table.
 
------------------------
-
-## Technologies used
-- Node.js
-- Inquire NPM Package 
-- MySQL
 
 ### Prerequisites
 
@@ -31,8 +25,10 @@ An Amazon-esque store created with Node.js and MySQL.
 - Create a MYSQL database called 'Bamazon', reference schema.sql
 ```
 
-## Built With
+## Technologies Used
 
 * Visual Studio Code
 * MySQL Workbench
 * Terminal/Gitbash
+* Node.js
+* Inquire NPM package
