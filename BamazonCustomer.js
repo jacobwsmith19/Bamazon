@@ -21,7 +21,7 @@ connection.query('SELECT * FROM Products', function(err, res){
   console.log("--------------------------------------------------------------------------------")
 
   for(var i = 0; i<res.length;i++){
-    console.log("ID: " + res[i].ItemID + " | " + "Product: " + res[i].ProductName + " | " + "Department: " + res[i].DepartmentName + " | " + "Price: " + res[i].Price + " | " + "QTY: " + res[i].StockQuantity);
+    console.log("ID: " + res[i].ItemID + " | " + "Product: " + res[i].ProductName + " | " + "Department: " + res[i].DepartmentName + " | " + "Price: $" + res[i].Price + " | " + "QTY: " + res[i].StockQuantity);
     console.log("------------------------------------------------------------------------------")
   }
 
@@ -65,6 +65,7 @@ connection.query('SELECT * FROM Products', function(err, res){
         ], function(err, result){
             if(err) throw err;
             console.log("Success! Your total is $" + grandTotal.toFixed(2) + ". Your item(s) will be shipped to you in 2-4 business days.");
+            reprompt();
         });
 
         connection.query("SELECT * FROM Departments", function(err, deptRes){
@@ -89,7 +90,7 @@ connection.query('SELECT * FROM Products', function(err, res){
         console.log("Sorry, there's not enough in stock!");
       }
 
-      reprompt();
+      //reprompt();
     })
 
 })
