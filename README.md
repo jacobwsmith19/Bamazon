@@ -25,7 +25,7 @@ An Amazon-esque store created with Node.js and MySQL.
 - Create a MYSQL database called 'Bamazon', reference schema.sql
 ```
 
-## Technologies Used
+### Technologies Used
 
 * Visual Studio Code
 * MySQL Workbench
