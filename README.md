@@ -35,3 +35,4 @@ An Amazon-esque store created with Node.js and MySQL.
 
 ### Screenshots:
 ![image](https://user-images.githubusercontent.com/47361606/58589408-6e74e200-8227-11e9-96c9-5e90b40b2b7a.png)
+![image](https://user-images.githubusercontent.com/47361606/58589476-98c69f80-8227-11e9-85fa-ec0b85d0b8e7.png)
