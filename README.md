@@ -21,8 +21,9 @@ An Amazon-esque store created with Node.js and MySQL.
 ### Prerequisites
 
 ```
-- Node.js - Download the latest version of Node https://nodejs.org/en/
-- Create a MYSQL database called 'Bamazon', reference schema.sql
+- Node.js 
+- Create a MySQL database called 'Bamazon'
+- Reference schema.sql file to set up database
 ```
 
 ### Technologies Used
